@@ -1,0 +1,16 @@
+{
+  "name": "ReactNativeTypeScript",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react-native": "^0.21.0"
+  },
+  "devDependencies": {
+    "react-native-webpack-server": "^0.8.4",
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.9"
+  }
+}
