@@ -3,14 +3,22 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "react-native-webpack-server start",
+    "hot": "adb reverse tcp:8081 tcp:8080&react-native-webpack-server start --hot",
+    "bundle": "react-native-webpack-server bundle",
+    "dev": "react-native-webpack-server start --hot"
   },
   "dependencies": {
-    "react-native": "^0.21.0"
+    "react-native": "^0.21.0",
+    "react-transform": "0.0.3"
   },
   "devDependencies": {
+    "react-hot-loader": "^1.3.0",
     "react-native-webpack-server": "^0.8.4",
+    "react-transform": "0.0.3",
     "tsd": "^0.6.5",
-    "typescript": "^1.8.9"
+    "typescript": "^1.8.9",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }

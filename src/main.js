@@ -1,7 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
+
 'use strict';
 import React, {
   AppRegistry,
@@ -19,13 +16,12 @@ class ReactNativeTypeScript extends Component {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.android.ja
-          asdfwo ye buzhid  
+          To get started.
         </Text>
         <Text style={styles.instructions}>
-          BoyceLyuasdf
+          Shake or press menu button for dev menu
         </Text>
-      </View>
+      </View> 
     );
   }
 }
